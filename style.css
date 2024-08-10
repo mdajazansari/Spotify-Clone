@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.right{
+    width: 75vw;
+}
+
+.left{
+    width: 25vw;
+}
+
+div .img{
+    size: 20px;
+}
