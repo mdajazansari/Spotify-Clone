@@ -13,3 +13,52 @@
 .items-center{
     align-items: center;
 }
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #212121;
+}
+
+.m-1{
+    margin: 6px 6px 6px 0px;
+}
+
+.p-1{
+    padding: 9px 9px 9px 9px;
+}
+
+.rounded{
+    border-radius: 12px;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, #2c2c2c 0%, #1e1e1e 100%); /* Gradient background */
+    border-radius: 12px; /* More rounded track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #444; /* Darker gray thumb */
+    border-radius: 12px;
+    border: 2px solid #2c2c2c; /* Subtle border to add a glossy effect */
+}
+
+/* For Firefox */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #444 linear-gradient(180deg, #2c2c2c 0%, #1e1e1e 100%);
+}
+
+
