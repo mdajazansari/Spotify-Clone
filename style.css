@@ -62,7 +62,7 @@ h2{
 
 .nav svg{
     width: 20px;
-    height: 4vh;
+    height: 11vh;
 }
 
 .header{
@@ -70,6 +70,8 @@ h2{
     justify-content: space-between;
     background-color: rgb(44, 42, 42);
     border-radius: 10px 10px 0px 0px;
+    height: 16vh;
+    align-items: center;
 }
 
 .header > *{
@@ -120,3 +122,36 @@ h2{
     width: 30px;
 }
 
+.signupbtn{
+    background-color: rgb(44, 42, 42);
+    color: rgb(155, 155, 155);
+    outline: none;
+    border: none;
+    padding: 0px 15px 0px 0px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+.signupbtn:hover{
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+
+.loginbtn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 12px 30px 12px 30px;
+}
+
+.loginbtn:hover{
+    font-size: 17px;
+    font-weight: 700;
+    background-color: rgb(230, 230, 230);
+}
